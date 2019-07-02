@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Calendar! with events",
   "author": "Akash Gianchandani <gianchandania@gmail.com>",
-  "repository": "moonbeam-factory/react-big-calendar-unavailable",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moonbeam-factory/react-big-calendar-unavailable.git"
+  },
   "license": "MIT",
   "main": "lib/index.js",
   "style": "lib/css/react-big-calendar.css",
@@ -122,5 +125,14 @@
   },
   "resolutions": {
     "babel-core": "7.0.0-bridge.0"
+  },
+  "bugs": {
+    "url": "https://github.com/moonbeam-factory/react-big-calendar-unavailable/issues"
+  },
+  "homepage": "https://github.com/moonbeam-factory/react-big-calendar-unavailable#readme",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
   }
 }
